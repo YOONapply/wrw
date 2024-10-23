@@ -9,8 +9,8 @@ a{
 }
 
 #here{
-    font-size: 40px;
-    color: rgb(105, 105, 105)
+    font-size: 55px;
+    color: black;
 }
 
 h1{
@@ -48,9 +48,9 @@ h1{
     font-family: "Jua", sans-serif;
     font-weight: 400;
     font-style: normal;  
-    color: rgb(0, 0, 0);
+    color: rgb(105, 105, 105);
     text-decoration: none;
-    font-size: 28px;
+    font-size: 35px;
     background-color: #81B29A;  
     border: 0px solid;
 }
@@ -62,7 +62,11 @@ h1{
     flex-direction: column;
     justify-content: center;
     align-items: center; /* 중앙 정렬 */
-    overflow: hidden; /* 넘치는 부분 숨기기 */
+    overflow: hidden; /* 넘치는 부분 숨기기 */   
+}
+
+.logo a{
+    color: rgb(105, 105, 105);
 }
  
 .logo img {
