@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+#here{
+    font-size: 40px;
+    color: rgb(105, 105, 105)
+}
+
+h1{
+    font-family: "Jua", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 61px;
+}
+
+.wrap {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+}
+
+.top {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 15vh;
+    background-color: #81B29A;  
+}
+
+.menu-bar {
+    width: 35%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-bar a{
+    font-family: "Jua", sans-serif;
+    font-weight: 400;
+    font-style: normal;  
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 28px;
+    background-color: #81B29A;  
+    border: 0px solid;
+}
+
+.logo {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; /* 중앙 정렬 */
+    overflow: hidden; /* 넘치는 부분 숨기기 */
+}
+ 
+.logo img {
+    width: 100%; /* div의 너비에 맞춤 */
+    height: 100%; /* div의 높이에 맞춤 */
+    object-fit: contain; /* 비율 유지하면서 채우기 */
+}
+
+.bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 85vh;
+    border-top: 3px solid;
+    background-color: #FFD9A1;  
+}
+
+.container {
+    width: 80%;
+    height: 90%;
+    background-color: #ffffffa4;   
+    border: 3px solid #000000;  
+    border-radius: 10px;
+    box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.15);  
+    position: relative;
+    overflow-x: hidden;
+    overflow-y: auto;  
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+    background-color: #F7E4C3;
+}
+
+.container img{
+    /* transform:  scale(0.7); */
+    width: 100%;
+    /* height: 60%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#review2{
+    margin-top: 100px;
+}
